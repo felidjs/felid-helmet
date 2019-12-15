@@ -26,7 +26,7 @@ const defaultPlugins = [
 
 function plugin (felid, options) {
   const opts = options || {}
-  for (let name in helmet) {
+  for (const name in helmet) {
     const opt = opts[name]
     if ((defaultPlugins.includes(name) && opt !== false) || opt) {
       if (opt === true) {
