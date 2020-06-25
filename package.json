@@ -25,14 +25,6 @@
     "url": "https://github.com/felidjs/felid-helmet/issues"
   },
   "homepage": "https://github.com/felidjs/felid-helmet#readme",
-  "devDependencies": {
-    "felid": "^0.0.6",
-    "injectar": "^1.4.0",
-    "jest": "^24.9.0",
-    "pre-commit": "^1.2.2",
-    "snazzy": "^8.0.0",
-    "standard": "^14.3.1"
-  },
   "dependencies": {
     "dns-prefetch-control": "^0.3.0",
     "dont-sniff-mimetype": "^1.1.0",
@@ -47,6 +39,17 @@
     "nocache": "^2.1.0",
     "referrer-policy": "^1.2.0",
     "x-xss-protection": "^1.3.0"
+  },
+  "devDependencies": {
+    "felid": "^0.0.6",
+    "injectar": "^1.4.0",
+    "jest": "^24.9.0",
+    "pre-commit": "^1.2.2",
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.1"
+  },
+  "engines": {
+    "node": ">= 10.0"
   },
   "standard": {
     "env": [
