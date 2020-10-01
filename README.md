@@ -1,6 +1,9 @@
 # felid-helmet
 
-[![npm version](https://img.shields.io/npm/v/felid-helmet.svg)](https://www.npmjs.com/package/felid-helmet) [![Build Status](https://travis-ci.com/felidjs/felid-helmet.svg?branch=master)](https://travis-ci.com/felidjs/felid-helmet) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm version](https://img.shields.io/npm/v/felid-helmet.svg)](https://www.npmjs.com/package/felid-helmet)
+![Node.js CI](https://github.com/felidjs/felid-helmet/workflows/Node.js%20CI/badge.svg)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![codecov](https://codecov.io/gh/felidjs/felid-helmet/branch/master/graph/badge.svg)](https://codecov.io/gh/felidjs/felid-helmet)
 
 Using [Helmet](https://github.com/helmetjs/helmet) middlewares in your [Felid](https://github.com/felidjs/felid) app to help improving security.
 
